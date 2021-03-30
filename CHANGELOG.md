@@ -2,11 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## 1.0.0 (2021-03-08)
+## 1.0.0 (2021-03-30)
 
 support for blade-icons v1.0.0 added.
 
-## 0.1.0 (2021-03-08)
+## 0.1.0 (2021-03-30)
 
 Initial release.
 Current package support [Typicons v2.1.1](https://github.com/stephenhutchings/typicons.font/releases/tag/v2.1.1)
