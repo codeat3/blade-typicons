@@ -85,9 +85,21 @@ class SvgIconCleaner
     {
         // for solid icons
         $finder = new Finder();
-        $finder->files()->in(self::RESOURCE_DIR)->name('*.svg');
+        $finder->files()->in(self::RESOURCE_DIR)->name('*.svg')->notName('*-outline.svg');
         foreach ($finder as $file) {
             $changedText = $this->replaceSolidPatterns($file->getContents());
+            if ($changedText !== false) {
+                file_put_contents($file->getRealPath(), $changedText);
+            } else {
+                echo 'no changes'.PHP_EOL;
+            }
+        }
+
+        // for outline icons
+        $finder = new Finder();
+        $finder->files()->in(self::RESOURCE_DIR)->name('*-outline.svg');
+        foreach ($finder as $file) {
+            $changedText = $this->replaceOutlinePatterns($file->getContents());
             if ($changedText !== false) {
                 file_put_contents($file->getRealPath(), $changedText);
             } else {
