@@ -41,19 +41,19 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-si-adjust-brightness/>
+<x-typ-adjust-brightness/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-si-adjust-brightness class="w-6 h-6 text-gray-500"/>
+<x-typ-adjust-brightness class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-si-adjust-brightness style="color: #555"/>
+<x-typ-adjust-brightness style="color: #555"/>
 ```
 
 ### Raw SVG Icons
