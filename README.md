@@ -61,13 +61,13 @@ And even use inline styles:
 If you want to use the raw SVG icons as assets, you can publish them using:
 
 ```bash
-php artisan vendor:publish --tag=blade-ti --force
+php artisan vendor:publish --tag=blade-typ --force
 ```
 
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-ti/adjust-brightness.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-typ/adjust-brightness.svg') }}" width="10" height="10"/>
 ```
 
 ### Blade Icons
