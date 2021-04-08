@@ -2,6 +2,8 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.0.1 (2021-04-08)
+updating the prefix to `typ` to avoid confict
 ## 1.0.0 (2021-03-30)
 
 support for blade-icons v1.0.0 added.
