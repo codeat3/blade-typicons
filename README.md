@@ -39,10 +39,10 @@ Blade Typicons uses Blade Icons under the hood. Please refer to [the Blade Icons
 
 ## Configuration
 
-Blade Typicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-vaadin-icons.php` config file:
+Blade Typicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-typicons.php` config file:
 
 ```bash
-php artisan vendor:publish --tag=blade-vaadin-icons-config
+php artisan vendor:publish --tag=blade-typicons-config
 ```
 
 ## Usage
