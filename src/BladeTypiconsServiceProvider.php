@@ -32,7 +32,7 @@ final class BladeTypiconsServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/svg' => public_path('vendor/blade-typicons'),
-            ], 'blade-typicons');
+            ], 'blade-typ'); // TDOO: update this alias to `blade-typicons` in next major release
 
             $this->publishes([
                 __DIR__.'/../config/blade-typicons.php' => $this->app->configPath('blade-typicons.php'),
