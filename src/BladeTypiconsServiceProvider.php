@@ -19,7 +19,6 @@ final class BladeTypiconsServiceProvider extends ServiceProvider
 
             $factory->add('typicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
