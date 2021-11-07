@@ -2,6 +2,8 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## [Unreleased](https://github.com/codeat3/blade-typicons/compare/1.3.2...main)
+
 ## 1.3.2 (2021-05-14)
 typo fix the alias used to publish icons
 
